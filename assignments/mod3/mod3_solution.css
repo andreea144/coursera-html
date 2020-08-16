@@ -1,0 +1,124 @@
+
+  /********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+ /************ Nav Bar *************/
+.navbar-brand h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2em;
+  text-align:left;
+  font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+}
+#header-nav{
+  background-color: #999;
+  border: 2px solid black;
+  border-radius: 0px;
+}
+.navbar-default .navbar-toggle{
+  border: 2px solid black;
+}
+#nav-list a{
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover{
+  background-color: #E7E7E7; 
+}
+#nav-list a span{
+  font-size:1.3em;
+}
+.navbar-header button.navbbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: black;
+  background-color:white;
+  padding: 0px;  
+}
+.navbar-default .navbar-toggle:focus,.navbar-header .icon-bar:hover, .navbar-default .navbar-toggle:hover {
+    background-color: #999;
+    border: 1px solid white;
+}
+.navbar-nav{
+  margin:0px;
+}
+hr{
+  border: 1px solid black;
+  margin:0px;
+  padding: 0px; 
+}
+/*********** End nav bar **********/
+
+
+/*********** Content **************/
+h2{
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 3vw;
+  width: 100%;
+  font-family: Helvetica;
+}
+p {
+  border: 1px solid #999;
+  background-color: #999;
+  width: 100%;
+  font-family: Helvetica;
+  color: black;
+  margin:0px  15px 0px 15px;
+  padding: 5px 10px 10px 10px;
+  font-size: 2vw;
+}
+.special_div {
+  margin-top: 15px;
+  margin-bottom: 20px
+}
+.food {
+  width: 100%;
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: black;
+  background-color:#999;
+  padding: 0px;  
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: black;
+  background-color:#999;
+  padding: 0px;  
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: black;
+  background-color:#999;
+  padding: 0px;  
+  }
+  /* End Home Page */
+}
